@@ -13,3 +13,19 @@ In addition, lists (<ul>, <li>) are employed to organize items, and the use of t
 
 Conclusion for Viva:
 In conclusion, creating a student portfolio webpage using HTML5 is a valuable exercise in web development that demonstrates the effective use of semantic HTML elements. A well-structured portfolio not only highlights the individual’s skills, experiences, and projects but also provides an opportunity to make a lasting impression on potential employers or academic evaluators. By using HTML5 elements such as <div>, <header>, <footer>, <img>, and <a>, along with lists, tables, and forms, we can organize content in a clear and accessible way. Additionally, incorporating CSS enhances the design, ensuring the webpage is both visually appealing and responsive across devices.
+
+---------------------------------------------------------------------------------------
+
+In this experiment, we studied and implemented HTML5 form controls to create a placement registration form. HTML forms allow user inputs to be captured and sent to a server for processing. We used various HTML5 elements such as:
+
+Text Input (<input type="text">): Used to capture user input like name, roll number, etc.
+Password Field (<input type="password">): Used to capture sensitive information like passwords.
+Email Field (<input type="email">): Ensures a valid email format is entered by the user.
+Radio Buttons (<input type="radio">): Allows selection of one option from a group of predefined choices.
+Checkboxes (<input type="checkbox">): Used to select multiple options, if needed.
+Drop-down List (<select>): Provides a list of choices where only one option can be selected.
+Submit Button (<input type="submit">): Triggers form submission.
+These controls were wrapped inside the <form> tag and organized using <fieldset> and <legend> for a better user experience. Each element has attributes like name, id, and value, which ensure correct data transmission to the server. The correct input validation, such as for emails and passwords, was achieved using HTML5 features.
+
+Conclusion for Viva:
+In this experiment, we learned how to design and implement a fully functional placement registration form using HTML5 elements. We explored various form controls like text boxes, password fields, email fields, radio buttons, checkboxes, and dropdown lists, and understood their roles in capturing user data. We also implemented form validation, ensuring inputs like email are in a valid format. By using <fieldset> and <legend>, we grouped related form controls, improving the structure and clarity of the form.
