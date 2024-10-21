@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ES6 Iterator Example</title>
+</head>
+<body>
+    <h2>JavaScript Iterables</h2>
+    <p id="demo"></p>
+
+    <script>
+        // Defining the myNumbers object with an iterator
+        const myNumbers = {
+            [Symbol.iterator]: function () {
+                let n = 0; // Start at 0
+                return {
+                    next() {
+                        n += 10; // Increment by 10 each time
+                        if (n > 100) {
+                            return { value: undefined, done: true }; // End iteration when n exceeds 100
+                        }
+                        return { value: n, done: false }; // Return current value and indicate it's not done
+                    }
+                };
+            }
+        };
+
+        // Using the iterator
+        let text = "";
+        for (const num of myNumbers) {
+            text += num + "<br>"; // Concatenate each number to the text
+        }
+
+        // Display the output in the demo paragraph
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>
