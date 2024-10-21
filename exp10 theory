@@ -1,0 +1,15 @@
+Theory for Viva
+React Class Components: An Overview
+
+React is a popular JavaScript library for building user interfaces, particularly for single-page applications. One of the fundamental building blocks of React is the concept of components. Among these, class components play a significant role, especially in earlier versions of React before the introduction of hooks.
+
+Class components are ES6 classes that extend from React.Component. They can maintain their own state, allowing them to create dynamic, interactive UIs. The state is an object that determines how that component behaves and renders. Class components must have a render() method, which returns the JSX (JavaScript XML) that defines the component's UI.
+
+Props, short for properties, are another essential aspect of React. They are used to pass data from parent components to child components. Unlike state, props are immutable, meaning that a child component cannot modify the props it receives. This distinction is crucial for maintaining predictable data flow within the application.
+
+Bootstrap is a front-end framework that provides pre-designed components and utilities, enabling developers to create responsive and visually appealing UIs quickly. When integrated with React, Bootstrap helps streamline the design process, offering a consistent look and feel across applications.
+
+In summary, class components, state, and props form the backbone of React applications, while Bootstrap enhances their aesthetic appeal and responsiveness.
+
+Conclusion for Viva
+In conclusion, understanding class components, state, props, and the integration of Bootstrap in React applications is vital for developing robust and user-friendly interfaces. By leveraging these concepts, developers can create applications that are not only functional but also visually appealing and responsive across various devices. Mastering these fundamentals equips developers with the skills needed to tackle more advanced features of React, paving the way for innovative and efficient application development.
