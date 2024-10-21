@@ -1,0 +1,22 @@
+Theory:
+What is Bootstrap?
+Bootstrap is a popular open-source front-end framework that simplifies the process of web development. It provides a set of design templates and components like HTML, CSS, and JavaScript that make it easier to build responsive, mobile-first websites. The framework is known for its ease of use, robust grid system, and pre-designed elements, allowing developers to create visually appealing and functional websites without extensive custom coding.
+
+Why Use Bootstrap?
+
+Ease of Use: Bootstrap requires only basic knowledge of HTML and CSS, making it accessible for beginners.
+Responsive Design: Bootstrap’s responsive CSS adjusts the layout automatically to fit different screen sizes, making websites look good on phones, tablets, and desktops.
+Mobile-First Approach: Bootstrap follows a mobile-first design philosophy, which means that the code is optimized for mobile devices from the start.
+Cross-Browser Compatibility: It ensures that websites work well on all major browsers, including Chrome, Firefox, Safari, Edge, and more.
+Bootstrap Containers:
+
+.container: Provides a responsive, fixed-width container with max-widths that vary based on the viewport size. It helps align and center the content on the page.
+.container-fluid: Creates a full-width container that spans 100% of the viewport width, adjusting fluidly as the viewport changes.
+Form Layouts in Bootstrap:
+Bootstrap offers various form layouts, such as basic vertical forms, inline forms, and horizontal forms. These layouts allow for easy customization and styling of form inputs, buttons, and labels to create user-friendly interfaces.
+
+Grid System:
+Bootstrap's grid system allows developers to create complex layouts using a 12-column structure. It offers flexibility by using classes like col-xs-, col-sm-, col-md-, and col-lg- to define how content should behave across different screen sizes.
+
+Conclusion:
+In this experiment, we enhanced the styling of a webpage using Bootstrap. By leveraging Bootstrap’s predefined classes and responsive design features, we created a visually appealing and user-friendly interface with minimal code. The use of containers, grid systems, button groups, and various form layouts allowed for a structured and adaptive design that adjusts seamlessly across different devices and screen sizes. Bootstrap's simplicity and flexibility make it an ideal choice for modern web development, enabling developers to create functional and aesthetically pleasing websites efficiently.
