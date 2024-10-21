@@ -1,0 +1,37 @@
+Theory for Viva:
+React Components Overview: React components are the core building blocks of a React application. They make creating user interfaces (UIs) easier by dividing the UI into smaller, reusable pieces called components. In a component-based architecture, different parts of the application can be built independently and combined to form the final UI. Each React component can hold its own methods, structure, and APIs.
+
+Types of Components:
+
+Functional Components:
+
+These are simple JavaScript functions that return HTML elements (JSX).
+They do not manage or hold state, making them stateless.
+They are used when the component mainly deals with rendering UI without managing internal data.
+Example:
+javascript
+Copy code
+function WelcomeMessage(props) {
+  return <h1>Welcome, {props.name}</h1>;
+}
+Class Components:
+
+These are more complex and involve extending the React.Component class.
+They can manage their own state and lifecycle methods, making them stateful.
+Class components are useful when you need to manage or handle dynamic data.
+Example:
+javascript
+Copy code
+class MyComponent extends React.Component {
+  render() {
+    return <div>This is a class component.</div>;
+  }
+}
+State and Props:
+
+State refers to data that is local to a component and can change over time.
+Props are used to pass data from one component to another and are read-only. They help in reusability and dynamic rendering.
+Practical Example: In the experiment, we created components that dynamically rendered a list of student names. Using class components allowed us to manage the list as state and functional components were used for static rendering.
+
+Conclusion for Viva:
+In this experiment, we learned about functional and class components in ReactJS. We implemented both types, demonstrating how to pass data using props and manage state using class components. This experiment helped us understand how to build dynamic user interfaces by structuring our application into reusable and maintainable components.
