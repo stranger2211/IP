@@ -1,0 +1,62 @@
+Theory: Cascading Style Sheets (CSS)
+Introduction to CSS: Cascading Style Sheets (CSS) are used to control the presentation of HTML documents. CSS enables web designers and developers to apply styles to web pages, allowing them to create visually appealing and responsive layouts. A CSS rule consists of three components: selector, property, and value.
+
+Components of CSS:
+
+Selector: An HTML element to which the style will be applied (e.g., h1, p).
+Property: An attribute of the HTML element that you want to style (e.g., color, font-size).
+Value: The specific setting for the property (e.g., red, 20px).
+CSS Syntax: The syntax for a CSS rule is as follows:
+
+css
+Copy code
+selector {
+    property: value;
+}
+Types of CSS Selectors:
+
+Element Selector: Targets HTML elements by their names.
+
+html
+Copy code
+<p>Text</p>
+css
+Copy code
+p {
+    color: blue;
+}
+ID Selector: Targets a specific element with a unique id.
+
+html
+Copy code
+<p id="para1">Hello!</p>
+css
+Copy code
+#para1 {
+    text-align: center;
+}
+Class Selector: Targets elements with a specific class.
+
+html
+Copy code
+<h1 class="center">Heading</h1>
+css
+Copy code
+.center {
+    text-align: center;
+}
+Universal Selector: Targets all elements on the page.
+
+css
+Copy code
+* {
+    color: green;
+}
+Group Selector: Groups multiple selectors to apply the same styles.
+
+css
+Copy code
+h1, h2, p {
+    color: blue;
+}
+Conclusion: Through this experiment, we explored various CSS techniques to style web pages, enhancing our understanding of how CSS rules work, the different types of selectors available, and how to apply them effectively.
