@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+            background-color: #6495ED;
+            color: #333;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: black;
+            padding: 15px 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        .navbar li {
+            margin: 0 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .main-heading {
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            margin: 40px 0;
+        }
+
+        main {
+            flex: 1;  /* This makes the main content area grow and take up available space */
+            padding: 20px;
+        }
+
+        .product-section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .product {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .product-name {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .original-price {
+            text-decoration: line-through;
+            color: red;
+            margin-bottom: 5px;
+        }
+
+        .discounted-price {
+            font-weight: bold;
+            color: green;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Electronics</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Books</a></li>
+                <li><a href="#">More</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="main-heading">We have 90% off right now on these products</h1>
+
+        <section class="product-section">
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9TtG8yfYueMQzruqs3SfzZFR0VrsVJTzPZg&s" alt="Product 1">
+                <p class="product-name">Plastic Containers</p>
+                <p class="original-price">Original Price: ₹999</p>
+                <p class="discounted-price">Discounted Price: ₹99.9</p>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0DPrXabdLSvIBmNARRFEsuZvTcL3MqN_-Zg&s" alt="Product 2">
+                <p class="product-name">Snack Pack</p>
+                <p class="original-price">Original Price: ₹59</p>
+                <p class="discounted-price">Discounted Price: ₹5.9</p>
+            </div>
+            <div class="product">   
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw2oeE8O1PNGpNA7qcj_m0d2A40ZOmqObPOQ&s" alt="Product 3">
+                <p class="product-name">Shower Head</p>
+                <p class="original-price">Original Price: ₹799</p>
+                <p class="discounted-price">Discounted Price: ₹79.9</p>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWsCDzISG58gbGCzTyzZcvuc41WEtQF0XdHw&s" alt="Product 4">
+                <p class="product-name">Metal Nut</p>
+                <p class="original-price">Original Price: ₹129</p>
+                <p class="discounted-price">Discounted Price: ₹12.9</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Online Shopping. All rights reserved.</p>
+    </footer>
+</body>
+</html>
