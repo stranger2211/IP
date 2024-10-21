@@ -1,0 +1,25 @@
+Theory for Viva
+Express.js Overview
+Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It is designed to simplify the development of web applications by providing tools for routing, middleware, and handling HTTP requests and responses. Express allows developers to build applications quickly without worrying about low-level protocol handling.
+
+Routing in Express.js
+Routing in Express.js refers to how an application responds to client requests for specific endpoints, defined by a URI and an HTTP method (GET, POST, etc.). The app.method(path, handler) syntax is used to create routes, where:
+
+method: The HTTP method (e.g., get, post, put, delete).
+path: The URL path for the route.
+handler: A callback function that handles the request and response.
+Express uses middleware to define how requests are handled at different points in the application, allowing for clean and maintainable code.
+
+Setting Up Express.js
+To start an Express application, you need to:
+
+Create a project directory and initialize it with npm init.
+Install Express using npm install --save express.
+Create a server and define routes to handle requests.
+Key Advantages of Express.js
+
+Flexibility: No predefined structure, allowing developers to build applications as they see fit.
+Middleware Support: Enables handling of requests in a modular way.
+Large Ecosystem: A vast collection of middleware modules available through npm.
+Conclusion
+In this experiment, we studied and implemented routing in Express.js, which allowed us to handle various HTTP requests and responses effectively. We learned how to set up routes, manage request methods, and organize application logic using Express.js, which enhances the development of web applications.
