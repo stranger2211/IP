@@ -1,0 +1,63 @@
+Theory for Viva
+In this experiment, we explored how to create a React application using class components and integrate Bootstrap for styling the user interface.
+
+Class Components:
+Class components in React are stateful components, meaning they can hold and manage local state. These components extend from React.Component and must implement a render() method, which returns JSX (JavaScript XML) to define how the UI should appear.
+A class component allows us to create dynamic, interactive UIs by updating the component state and rendering it whenever there are changes.
+Example of a class component:
+javascript
+Copy code
+class MyComponent extends React.Component {
+    render() {
+        return (
+            <div>This is a class component.</div>
+        );
+    }
+}
+React State:
+State is an updatable object that holds data about a component and determines how it behaves and renders.
+It is typically initialized in the class constructor and updated using setState(). Updating the state triggers a re-render of the component, reflecting any changes in the UI.
+Example of state initialization:
+javascript
+Copy code
+constructor() {
+    super();
+    this.state = {
+        data: "Initial State"
+    };
+}
+React Props:
+Props, short for "properties," are read-only inputs passed from a parent component to child components. They allow us to pass data and methods between components to make them dynamic.
+Props are immutable, meaning they cannot be modified by the receiving component.
+Bootstrap in React:
+Bootstrap is a popular CSS framework for building responsive web designs. It provides pre-designed UI components such as buttons, forms, and layout grids.
+
+There are three main ways to integrate Bootstrap into a React application:
+
+Using CDN: Adding the Bootstrap CDN link in the index.html file.
+Bootstrap as a Dependency: Installing Bootstrap via npm and importing it in the entry file (index.js).
+React Bootstrap Package: Using packages like react-bootstrap or reactstrap to directly use Bootstrap components as React components.
+For this experiment, we used the React Bootstrap package, which allows us to use Bootstrap components without jQuery or Bootstrap.js.
+
+Example:
+javascript
+Copy code
+import React from 'react';
+import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+class App extends React.Component {
+    render() {
+        return (
+            <div className="container">
+                <h1 className="text-center">Hello, Bootstrap in React!</h1>
+                <Button variant="primary">Click Me</Button>
+            </div>
+        );
+    }
+}
+
+export default App;
+Conclusion:
+In this experiment, we learned how to create React applications using class components. We explored how state and props are used to make components dynamic and reusable. Additionally, we successfully integrated Bootstrap into the React application, leveraging its pre-built UI components and styling capabilities to design a responsive user interface.
+
