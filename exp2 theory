@@ -1,0 +1,17 @@
+Viva Theory: Creating a Placement Registration Form using HTML5 Elements
+Introduction: HTML5 provides enhanced features for creating more structured and user-friendly web forms. HTML forms are used to collect input data from users and send it to the server for processing. The <form> element is a container for all the input controls, like text boxes, radio buttons, checkboxes, and more.
+
+Importance of HTML Forms: Forms are essential for interactive web applications where user input is needed, such as registration forms, surveys, and feedback forms. They enable the exchange of data between users and servers, making web applications more dynamic and responsive to user needs.
+
+HTML Form Structure: A basic HTML form includes the following elements:
+
+<form>: Defines the beginning of the form. Contains attributes like action (where the form data is sent) and method (how the data is sent, e.g., GET or POST).
+<input>: Creates various types of user input controls, like text fields, passwords, checkboxes, etc.
+<label>: Associates descriptive text with input elements.
+<select> and <option>: Creates dropdown menus for selecting one of several options.
+<button> or <input type="submit">: Triggers the form submission.
+HTML5 Form Elements: HTML5 introduced new input types like email, date, and range, as well as validation features that enhance user experience and ensure the correctness of input data before submission.
+
+
+Conclusion: This form collects essential information from students for placement registration, including personal details, technical skills, and preferences. HTML5’s input types and validation features ensure data integrity and enhance user experience.
+
