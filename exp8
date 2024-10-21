@@ -1,0 +1,81 @@
+import React, { Component } from 'react';
+import person1 from './images/person1.jpeg';
+import person2 from './images/person2.jpeg';  
+import person3 from './images/person3.jpeg';
+import person4 from './images/person4.jpeg';
+
+
+function Header(props) {
+  return (
+    <div style={styles.header}>
+      <h1>{props.title}</h1>
+    </div>
+  );
+}
+
+function StudentItem(props) {
+  return (
+    <li style={styles.studentItem}>
+      <img src={props.image} alt={props.name} style={styles.image} />
+      <p>{props.name}</p>
+    </li>
+  );
+}
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      students: [
+        { name: 'John', image: person1 },
+        { name: 'Jane', image: person2 },
+        { name: 'David', image: person3 },
+        { name: 'Harry', image: person4 }
+      ]
+    };
+  }
+
+  render() {
+    return (
+      <div style={styles.container}>
+        <Header title="React Components Demo with Images" />
+
+        <h2>Class Component: List of Students with Images</h2>
+        <ul style={styles.studentList}>
+          {this.state.students.map((student, index) => (
+            <StudentItem key={index} name={student.name} image={student.image} />
+          ))}
+        </ul>
+      </div>
+    );
+  }
+}
+
+const styles = {
+  container: {
+    fontFamily: 'Arial, sans-serif',
+    textAlign: 'center',
+    padding: '20px',
+  },
+  header: {
+    backgroundColor: '#4CAF50',
+    color: 'white',
+    padding: '10px',
+  },
+  studentList: {
+    listStyleType: 'none',
+    padding: 0,
+  },
+  studentItem: {
+    display: 'inline-block',
+    margin: '20px',
+    textAlign: 'center',
+  },
+  image: {
+    width: '100px',
+    height: '100px',
+    borderRadius: '50%',
+  },
+};
+
+export default App;
