@@ -1,3 +1,4 @@
+#node script.js to execcute
 const myPromise = new Promise((resolve, reject) => {
     if (Math.random() > 0) {
     console.log('resolving the promise ...');
