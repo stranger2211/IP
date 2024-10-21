@@ -1,0 +1,9 @@
+
+Theory for Viva on Bootstrap:
+Bootstrap is a popular front-end framework that simplifies the process of designing and developing responsive, mobile-first websites. It was initially developed by Twitter and is now maintained as an open-source project. Bootstrap uses HTML, CSS, and JavaScript-based design templates, offering various components like navigation bars, buttons, forms, modals, and carousels that make web development more efficient.
+
+The primary strength of Bootstrap lies in its grid system, which is based on a 12-column layout. This system allows developers to create responsive layouts that automatically adjust to different screen sizes and orientations, ensuring a consistent user experience across desktop, tablet, and mobile devices. The framework also includes pre-defined CSS classes for typography, colors, spacing, and other elements, allowing developers to achieve a polished design with minimal custom CSS.
+
+Conclusion for Viva on Bootstrap:
+In conclusion, Bootstrap is an essential tool for modern web development, especially for building responsive and user-friendly websites quickly. Its comprehensive library of pre-designed components and its powerful grid system enable developers to focus more on the functionality of their applications rather than spending time on styling from scratch. As a result, Bootstrap speeds up the development process while ensuring that the final product is visually appealing and compatible with a wide range of devices and browsers.
+
