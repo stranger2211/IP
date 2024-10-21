@@ -1,0 +1,12 @@
+Theory for Viva:
+A portfolio is a personal website or page designed to showcase an individual's skills, experiences, projects, and qualifications. It is primarily used by professionals, freelancers, and students to present their work to potential employers, clients, or academic institutions. In web development, creating a portfolio with HTML5 is a fundamental exercise, utilizing a variety of HTML elements and attributes to structure and style the page.
+
+The key elements of a student portfolio include:
+
+Hero Section: The first section users see, often including an introduction and a call-to-action, such as “Contact Me” or “View Projects.”
+About Me Section: Provides a brief description of the individual, covering education, interests, work experience, and skills.
+Projects Section: Lists notable projects in chronological or logical order. This section can include details such as the technologies used, personal contributions, and images of the projects.
+Contact Section: Contains contact information, including email, social media links (LinkedIn, GitHub), and other communication channels.
+HTML5 elements such as <div>, <header>, <footer>, <img>, <table>, and <a> are used to organize content and create a visually appealing and functional webpage. The <div> tag helps structure the page into different sections, while the <img> tag adds images. The anchor tag <a> is used for hyperlinks, and the <header> and <footer> tags define the top and bottom sections of the page, respectively.
+
+In addition, lists (<ul>, <li>) are employed to organize items, and the use of tables (<table>, <tr>, <td>) enables content to be displayed in rows and columns. Styling and responsive behavior can be enhanced through external CSS.
