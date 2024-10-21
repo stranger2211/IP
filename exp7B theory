@@ -1,0 +1,16 @@
+ES6 Promises:
+Promises in ES6 provide a cleaner, more efficient way to handle asynchronous operations compared to callback functions. A Promise represents a value that may be available now, in the future, or never.
+
+A Promise can have three states:
+
+Pending: The initial state, neither fulfilled nor rejected.
+Fulfilled: The operation was completed successfully.
+Rejected: The operation failed.
+A promise is created using the new Promise() constructor, which accepts two arguments: resolve (for successful operations) and reject (for errors).
+
+Promises handle asynchronous code through the .then() method (for success) and .catch() method (for errors).
+
+In the provided code, we create a promise that resolves if a random number is greater than 0, printing "Hello, Positive :)", and rejects with an error otherwise.
+
+Conclusion for Promises:
+In this experiment, we explored the ES6 promise mechanism to handle asynchronous operations. By creating a promise that either resolves or rejects based on a condition, we demonstrated how to handle both successful and error scenarios using the .then() and .catch() methods. Promises provide a structured approach to managing asynchronous code, making it easier to maintain and read, particularly in complex workflows.
