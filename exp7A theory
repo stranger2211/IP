@@ -1,0 +1,11 @@
+Theory for Viva:
+ES6 Iterators:
+Iterators are a key feature introduced in ES6 (ECMAScript 2015) to allow easy access and traversal through data structures, one element at a time. The iterator protocol defines a standard way to produce a sequence of values, and it works by returning an object with a next() method, which provides the next value in the sequence.
+
+An iterator is any object that implements the Symbol.iterator method and returns an object with a next() method.
+The next() method returns two properties: value (the current value) and done (a boolean indicating whether the iterator is complete).
+Iterators are especially useful for iterating over custom data structures and collections.
+In the provided code, we define an iterable object (myNumbers) and use a for...of loop to iterate over it, creating a simple sequence that increments by 10 until it reaches 100.
+
+Conclusion for Iterator:
+In this experiment, we successfully implemented a custom ES6 iterator. By defining the Symbol.iterator method on an object, we were able to create a sequence of numbers that could be iterated over using the for...of loop. This demonstrated how iterators can simplify the process of accessing elements in a sequence, offering a flexible and efficient way to traverse custom data structures.
