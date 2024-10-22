@@ -1,4 +1,7 @@
-#node script.js to execcute
+#check for node using node -v
+#create a file named script.js
+#cd path/to/your/file
+#node script.js to execute
 const myPromise = new Promise((resolve, reject) => {
     if (Math.random() > 0) {
     console.log('resolving the promise ...');
